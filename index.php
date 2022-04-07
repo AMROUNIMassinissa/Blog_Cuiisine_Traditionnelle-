@@ -96,8 +96,8 @@
                     <h2 class="intro-text text-center">
                         Plats Traditionnelles
                         <strong>
-                                Tanawilt Tansayt
-                            </strong>
+                            Tanawilt Tansayt
+                        </strong>
                     </h2>
                     <hr>
                     <img class="img-responsive img-border img-left " src="img/img4.jpeg" alt="">
@@ -133,7 +133,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Massinissa AMROUNI 2022</p>
+                    <p>Copyright &copy; Tanawilt Tansayt 2022</p>
                 </div>
             </div>
         </div>
