@@ -15,30 +15,7 @@
     <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
 </head>
-<div class="brand">Tanawilt Tansayt</div>
-<div class="address-bar">Paris | France | 0123456789</div>
-
-<nav class="navbar navbar-default" role="navigation">
-    <div class="container">
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="index.php">Home</a>
-                </li>
-                <li>
-                    <a href="about.php">About</a>
-                </li>
-                <li>
-                    <a href="blog.php">Blog</a>
-                </li>
-                <li>
-                    <a href="contact.php">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
+<?php require_once 'nav.php' ?>
 <div class="container">
     <div class="row">
         <div class="box">
@@ -51,7 +28,26 @@
                 <hr>
             </div>
             <div class="col-md-6">
-                <img src="img/img1.jpeg" alt="img" class="img-responsive img-border-left">
+                <style>
+                    .embed-container {
+                        position: relative;
+                        padding-bottom: 56.25%;
+                        height: 0;
+                        overflow: hidden;
+                        max-width: 100%;
+                    }
+
+                    .embed-container iframe,
+                    .embed-container object,
+                    .embed-container embed {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+                </style>
+                <div class='embed-container'><iframe src='https://www.youtube.com/embed/qDzlYb2MzDk' frameborder='0' allowfullscreen></iframe></div>
             </div>
             <div class="col-md-6">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ullam error blanditiis officiis excepturi pariatur!</p>
@@ -72,12 +68,15 @@
                 <hr>
             </div>
             <div class="col-sm-4 text-center">
+                <img src="img/av1.jpg" alt="" class="img-responsive">
                 <h3>Cherifa AM <small>Tamsewwayt</small></h3>
             </div>
             <div class="col-sm-4 text-center">
+                <img src="img/av2.jpg" alt="" class="img-responsive">
                 <h3>Idir ME <small>Amsewway</small></h3>
             </div>
             <div class="col-sm-4 text-center">
+                <img src="img/av3.jpg" alt="" class="img-responsive">
                 <h3>Lounis ZE <small>Amsewway</small></h3>
             </div>
             <div class="clearfix">
@@ -85,15 +84,7 @@
         </div>
     </div>
 </div>
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <p>Copyright &copy; Tanawilt Tansayt 2022</p>
-            </div>
-        </div>
-    </div>
-</footer>
+<?php require_once 'footer.php' ?>
 
 <body>
 
