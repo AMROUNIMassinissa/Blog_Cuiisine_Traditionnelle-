@@ -36,7 +36,7 @@
         }
     }
     ?>
-    <?php require_once 'nav.php' ?>
+    <?php require_once 'nav.html' ?>
     <div class="container">
 
         <div class="row">
@@ -126,7 +126,7 @@
         </div>
     </div>
 
-    <?php require_once 'footer.php' ?>
+    <?php require_once 'footer.html' ?>
 
 
 

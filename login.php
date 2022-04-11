@@ -23,7 +23,7 @@
 
     <div class="brand">Tanawilt Tansayt</div>
     <div class="address-bar">Paris | France | 0123456789</div>
-    <?php require_once 'nav.php' ?>
+    <?php require_once 'nav.html' ?>
     <div class="container">
         <div class="row">
             <div class="box">
@@ -60,6 +60,9 @@
             </div>
         </div>
     </div>
+
+    <!--  footer -->
+    <?php require_once 'footer.html' ?>
 
 
 </body>
