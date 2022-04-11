@@ -17,6 +17,25 @@
 </head>
 
 <body>
+
+    <div class="brand">Tanawilt Tansayt</div>
+    <div class="address-bar">Paris | France | 0123456789</div>
+
+    <?php
+
+    if (isset($_GET["logout"])) {
+
+        if ($_GET["logout"] == "true") { ?>
+
+            <div class="alert alert-success">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>You have been logged out of the system.</strong>
+            </div>
+
+    <?php
+        }
+    }
+    ?>
     <?php require_once 'nav.php' ?>
     <div class="container">
 

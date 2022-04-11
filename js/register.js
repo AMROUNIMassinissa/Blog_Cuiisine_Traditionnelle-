@@ -57,7 +57,7 @@ $(document).ready(function() {
                 }
             },
             beforeSend: function() {
-                $("#add_err2").html("assbibbi...");
+                $("#add_err").html("assbibbi...");
             },
         });
         return false;

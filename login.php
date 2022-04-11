@@ -15,7 +15,8 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
     <script src="js/jquery.js"></script>
-    <script src="js/register.js"></script>
+    <script src="js/login.js"></script>
+
 </head>
 
 <body>
@@ -26,25 +27,18 @@
     <div class="container">
         <div class="row">
             <div class="box">
-                <div class="col-lg-12">
+                <div class="col-lg-12 ">
+                    <div class='alert alert-danger'>
+                        <strong>Ankcum ar da ilaq tuqqna </strong>
+                    </div>
                     <hr>
                     <h2 class="intro-text text-center">
-                        Ajerrd <strong>Tferkit </strong>
+                        <strong>Tuqqna</strong>
                     </h2>
                     <hr>
-
                     <div id="add_err"></div>
-
-                    <form role="from">
+                    <form role="form">
                         <div class="row">
-                            <div class="form-group col-lg-4 ">
-                                <label for="fname">Isem</label>
-                                <input type="text" class="form-control" placeholder="First Name" name="fname" id="fname" maxlength="25">
-                            </div>
-                            <div class="form-group col-lg-4">
-                                <label for="lname">Nnekwa</label>
-                                <input type="text" class="form-control" placeholder="Last Name" name="lname" id="lname" maxlength="25">
-                            </div>
                             <div class="form-group col-lg-4">
                                 <label for="email">Tansa taliktṛunant &#x1F4E7; </label>
                                 <input type="email" class="form-control" placeholder="Email" name="email" id="email" maxlength="25">
@@ -54,14 +48,19 @@
                                 <input type="password" class="form-control" placeholder="Password" name="password" id="password" maxlength="10">
                             </div>
                             <div class="form-group col-lg-12">
-                                <button type="submit" class="btn btn-primary" name="submit" id="submit">Kles</button>
+                                <button type="submit" class="btn btn-primary" name="login" id="login">Kles</button>
                             </div>
                         </div>
                     </form>
+                    <div class="form-group col-lg-12">
+                        <a href="register.php"><button type="submit" class="btn btn-primary">War3ad s3iɣ amiḍan ? Ajerrd</button></a>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
+
 
 </body>
 

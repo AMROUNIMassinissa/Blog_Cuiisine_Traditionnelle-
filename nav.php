@@ -1,6 +1,3 @@
-<div class="brand">Tanawilt Tansayt</div>
-<div class="address-bar">Paris | France | 0123456789</div>
-
 <nav class="navbar navbar-default" role="navigation">
     <div class="container">
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
